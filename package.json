@@ -1,19 +1,27 @@
 {
-  "name": "project01",
+  "name": "blood_donation",
   "version": "1.0.0",
-  "description": "",
-  "main": "scripts.js",
+  "description": "<p align=\"center\">    <a href=\"https://git-scm.com/\">       <img src=\"https://user-images.githubusercontent.com/46982925/77604180-a48afd00-6ef0-11ea-8c02-4dfec0160aa6.png\" alt=\"Logo Git\" width=\"200px\" height=\"150px\">    </a></br> </p> <p align=\"center\">    Projeto básico desenvolvido através do MaratonaDev 3.0 da <a href=\"https://rocketseat.com.br/\" target=\"_blank\"> RocketSeat</a>, sendo abordado conceitos básicos de HTML5, CSS e JavaScript tanto para front-end quanto para back-end, onde no caso foi utilizado o Node.js. Também foram utilizados conceitos básicos de banco de dados relacional, nesse caso PostgreSQL, para armazenamento dos dados cadastrais como nome, e-mail e tipo sanguíneo.       </p>",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonhoffmam/blood_donation.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonhoffmam/blood_donation/issues"
+  },
+  "homepage": "https://github.com/jonhoffmam/blood_donation#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
-    "nunjucks": "^3.2.0",
+    "nunjucks": "^3.2.1",
     "pg": "^7.18.2"
   }
 }
